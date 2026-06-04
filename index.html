@@ -383,6 +383,14 @@ nav {
   50% { transform: translateY(-12px) rotate(-1deg); }
 }
 
+@media (hover: none), (max-width: 768px) {
+  .book-placeholder,
+  .book-img {
+    animation: none !important;
+    transform: rotate(-1deg) !important;
+  }
+}
+
 /* SECTION HEADER */
 .section-header { text-align: center; max-width: 600px; margin: 0 auto; }
 .section-eyebrow {
